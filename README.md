@@ -1,18 +1,23 @@
-## Getting Started
+Práctica de Teoria de la complejidad
+📌 Información General
+Título: Estructuras no Lineales
+Asignatura: Estructura de Datos
+Carrera: Computación
+Estudiantes: Felipe Parra
+Fecha: 19/06/2025
+Profesor: Ing. Pablo Torres
+🛠️ Descripción
+Genera un arbol binario, imprime su altura,peso y el arbol InOrder, con la altura y factores de equilibrio, si esta equilibrado o si no lo esta, ademas muestra que nodos estan en desequilibrio,, que valor se agrega y si se encuentra
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🚀 Ejecución:
+Para ejecutar el proyecto:
 
-## Folder Structure
+Compila el código:
+javac App.java
+Ejecuta la aplicación:
+java App
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🧑‍💻 Ejemplo de Salida
+![Resultado de arbol](![alt text](image.png))
