@@ -21,3 +21,7 @@ java App
 
 🧑‍💻 Ejemplo de Salida
 ![Resultado de arbol](![alt text](image.png))
+
+
+Ejemplo de salida con rotaciones 
+![Resultado de arbol con rotacion](![alt text](image-1.png))

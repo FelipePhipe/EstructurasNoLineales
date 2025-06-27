@@ -1,11 +1,17 @@
+import Materia.Controller.AVLTree;
 import Materia.Controller.BinaryTree;
 
 public class App {
     public static void main(String[] args) {
 
         System.out.println("Nombre: Felipe Parra");
+        AVLTree avl= new AVLTree();
 
-        BinaryTree ab = new BinaryTree();
+        avl.insert(5);
+        avl.insert(20);
+        avl.insert(15);
+
+        /*BinaryTree ab = new BinaryTree();
 
         ab.insert(50);
         ab.insert(17);
@@ -14,9 +20,9 @@ public class App {
         ab.insert(23);
         ab.insert(54);
         ab.insert(14);
-        ab.insert(19);
+        ab.insert(19);*/
 
-        System.out.println("Peso del arbol = " + ab.getSize());
+      /*  System.out.println("Peso del arbol = " + ab.getSize());
         System.out.println("Altura es = " + ab.getHeightTree() + "");
 
         System.out.println("Arbol InOrder");
@@ -45,6 +51,6 @@ public class App {
         ab.printBalanceFactors();
         System.out.println();
 
-        ab.printUnbalancedNodes();
+        ab.printUnbalancedNodes();*/
     }
 }
